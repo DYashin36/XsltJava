@@ -16,7 +16,9 @@ public class XsltTestApplication implements CommandLineRunner
 	public void run(String... args)
 	{
 		System.out.println("APP START");
-		XmlConverter.convert();
+		//new utilClass().utilMethod();
+		//XmlConverter.convert();
+		XmlConverter.callFromXslt();
 		System.out.println("APP FINISH");
 
 	}
